@@ -4,7 +4,7 @@ pipeline  {
         stage('clone code') {
             steps{
                 // github se code khinchega
-                git branch: 'main', url: 'https://github.com/dhruvbhatia-dev/DevOps-Project-Two-Tier-Flask-App.git'
+                git branch: 'main', url: 'https://github.com/dhruvbhatia-dev/flask-devops-project.git'
             }
         }
         stage('Build and run containers') {
